@@ -1,0 +1,108 @@
+h1 {
+  text-align: right;
+  position: relative;
+  display: block;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  padding: 5px;
+}
+
+h2 {
+  border: 1px solid black;
+  padding: 0.8em;
+  margin: 20px auto;
+  font-size: 18px;
+  border-radius: 10px;
+  width: 180px;
+  height: 90px;
+  text-align: center;
+  display: block;
+
+  background: linear-gradient(to top, #6a85b6 0%, #bac8e0 100%);
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+li {
+  color: black;
+  font-size: 16px;
+  font-weight: 100;
+  height: 19px;
+  line-height: 1;
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  padding: 10px;
+}
+ul {
+  padding: 1rem 2em;
+  display: inline-block;
+  border: 3px solid black;
+  font-size: 2rem;
+  text-align: center;
+  border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
+  text-transform: uppercase;
+  letter-spacing: 0.3ch;
+  background: #e4dfd9;
+  position: relative;
+  width: 100 px;
+  margin-left: 500px;
+  margin-top: 20px;
+}
+
+.container {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+}
+.card {
+  background: #e4dfd9;
+}
+.rain {
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+  opacity: 5;
+}
+
+.snow {
+  width: 100px;
+
+  display: block;
+  margin: 0 auto;
+}
+
+.thunder {
+  width: 100px;
+
+  display: block;
+  margin: 0 auto;
+}
+.cloud {
+  width: 100px;
+
+  display: block;
+  margin: 0 auto;
+}
+.sun {
+  width: 100px;
+
+  display: block;
+  margin: 0 auto;
+}
+.rain-w {
+  width: 100px;
+
+  display: block;
+  margin: 0 auto;
+}
+body {
+  background-image: linear-gradient(to bottom, #82addb 0%, #ebb2b1 100%);
+  background-image: -webkit-linear-gradient(
+    to bottom,
+    #82addb 0%,
+    #ebb2b1 100%
+  );
+  background-image: -moz-linear-gradient(to bottom, #82addb 0%, #ebb2b1 100%);
+  background-image: -o-background
+    linear-gradient(to bottom, #82addb 0%, #ebb2b1 100%);
+}
